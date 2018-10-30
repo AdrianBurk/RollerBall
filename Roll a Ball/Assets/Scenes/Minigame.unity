@@ -819,7 +819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &940896598
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1259,6 +1259,11 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 290cee40c62424e81b7d38873b2ffe4e, type: 2}
+    - target: {fileID: 23964987558047246, guid: 934af7d694c314fccb70960a5c4162c3,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 934af7d694c314fccb70960a5c4162c3, type: 2}
   m_IsPrefabParent: 0
